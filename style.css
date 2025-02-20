@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Flexbox to Align Buttons in Rows */
+.button-row {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+    gap: 20px; /* Space between buttons */
+    margin: 20px 0;
+}
+
+/* Uber Button */
+.uber {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Amazon Button */
+.amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* GitHub Button */
+.github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Bootstrap Primary Button */
+.bootstrap-primary {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 140px; /* Uniform width */
+    text-align: center;
+}
+
+/* Bootstrap Secondary Button (Text Only) */
+.bootstrap-secondary {
+    background-color: transparent;
+    border: 2px solid rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+/* LinkedIn Primary Button */
+.linkedin {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* LinkedIn Secondary Button (Bordered) */
+.linkedin-secondary {
+    background-color: transparent;
+    border: 2px solid rgb(10, 102, 194);
+    color: rgb(10, 102, 194);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
